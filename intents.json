@@ -1,0 +1,1248 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hi", "Hi there", "Hello", "hallo harnidh", "Hay","hallo","namste"],
+        "responses": ["Hi there" ,"Hello", "Hi", "Hi there", "Hello", "hallo harnidh", "Hay","hallo","namste"]
+      },
+      {
+        "tag": "address",
+        "patterns": ["whear are you from","what's you address"],
+        "responses": ["i am from india","i am from  india lucknow and you"]
+      }, 
+      {
+        "tag": "human_history",
+        "patterns": ["tell me about human history","what is human history","i wan't to learn about human history"],
+        "responses": ["human history is a recorded past of homo sepiens, spanning thousends of years.","the history of humans inculudes the development of civilizatins, cultures , technologies and societies.","Fro,m the emergence of homo sapiens in africa to the rise and  fall of ancient civilizations, human history is a rich tapestry of triumphs and challenges."]
+      },   
+      {
+        "tag": "ancient_india",
+        "patterns": [
+          "Tell me about ancient India",
+          "What was life like in ancient India?",
+          "Can you explain the Indus Valley Civilization?"
+        ],
+        "responses": [
+          "Ancient India refers to the period of Indian history from approximately 3300 BCE to 500 CE. It was characterized by the emergence of early civilizations such as the Indus Valley Civilization, Vedic culture, and the Maurya and Gupta empires.",
+          "Life in ancient India was diverse and influenced by factors such as geography, culture, and religion. It saw the development of sophisticated urban centers, trade networks, and the emergence of major religions such as Hinduism, Buddhism, and Jainism."
+        ]
+      },
+      {
+        "tag": "medieval_india",
+        "patterns": [
+          "What were the major events in medieval India?",
+          "Tell me about the Mughal Empire",
+          "What was the impact of the Delhi Sultanate?"
+        ],
+        "responses": [
+          "Medieval India refers to the period from around 500 CE to 1500 CE. It saw the rise and fall of various dynasties, including the Gupta Empire, Delhi Sultanate, and the Mughal Empire. Major events include the establishment of Islamic rule in northern India, the spread of Sufism, and the flourishing of art and literature.",
+          "The Mughal Empire, founded by Babur in 1526, was one of the most powerful empires in Indian history. It was known for its cultural richness, architectural achievements (such as the Taj Mahal), and administrative reforms.",
+          "The Delhi Sultanate, established by various Turkic and Afghan dynasties, significantly impacted Indian society, politics, and culture. It introduced Persianate culture, Islamic law, and administrative practices to the Indian subcontinent."
+        ]
+      },
+      {
+        "tag": "modern_india",
+        "patterns": [
+          "Explain the Indian independence movement",
+          "Who were the key figures in modern Indian history?",
+          "What were the major events in post-independence India?"
+        ],
+        "responses": [
+          "The Indian independence movement, led by figures such as Mahatma Gandhi, Jawaharlal Nehru, and Subhas Chandra Bose, aimed at ending British colonial rule in India. It involved various forms of nonviolent resistance, civil disobedience, and mass protests.",
+          "Key figures in modern Indian history include leaders of the independence movement such as Mahatma Gandhi, Jawaharlal Nehru, Sardar Patel, and B.R. Ambedkar, as well as reformers, thinkers, and cultural icons.",
+          "Post-independence India witnessed significant developments such as the adoption of the Indian Constitution, partition and independence in 1947, economic reforms, the Green Revolution, and the liberalization of the economy in the 1990s."
+        ]
+      },  
+      {
+        "tag": "early_computing",
+        "patterns": [
+          "What is the history of early computing?",
+          "Tell me about the first computers",
+          "Who were the pioneers of computer science?"
+        ],
+        "responses": [
+          "Early computing dates back to the 19th century with the development of mechanical calculators such as Charles Babbage's Analytical Engine and Ada Lovelace's work on algorithms for it.",
+          "The first electronic general-purpose computer, ENIAC (Electronic Numerical Integrator and Computer), was developed during World War II by John Mauchly and J. Presper Eckert at the University of Pennsylvania.",
+          "Pioneers of computer science include figures like Alan Turing, often considered the father of theoretical computer science and artificial intelligence, and Konrad Zuse, who built the world's first programmable computer, the Z3, in 1941."
+        ]
+      },
+      {
+        "tag": "evolution_of_computers",
+        "patterns": [
+          "How did computers evolve over time?",
+          "Tell me about the development of personal computers",
+          "What were the major milestones in computer history?"
+        ],
+        "responses": [
+          "Computers evolved rapidly from room-sized mainframes to desktop PCs and later to laptops, smartphones, and tablets. Key milestones include the invention of the transistor in 1947, the development of integrated circuits in the 1950s, and the invention of the microprocessor in the 1970s.",
+          "The emergence of personal computers in the 1970s and 1980s, including the Altair 8800, Apple II, and IBM PC, revolutionized computing by making it accessible to individuals and small businesses.",
+          "Other significant milestones include the invention of the World Wide Web by Tim Berners-Lee in 1989, the rise of graphical user interfaces (GUIs), and the development of networking technologies."
+        ]
+      },
+      {
+        "tag": "modern_computing",
+        "patterns": [
+          "What are some recent advancements in computing?",
+          "Tell me about artificial intelligence and machine learning",
+          "How has the Internet transformed computing?"
+        ],
+        "responses": [
+          "Recent advancements in computing include the rapid progress in artificial intelligence (AI), machine learning, and deep learning, leading to applications such as self-driving cars, virtual assistants, and medical diagnostics.",
+          "The Internet has transformed computing by enabling global connectivity, online collaboration, e-commerce, and the sharing of information and resources. It has also led to the rise of cloud computing, big data analytics, and Internet of Things (IoT) technologies."
+        ]
+      },   
+      {
+        "tag": "early_transportation",
+        "patterns": [
+          "What was transportation like in ancient times?",
+          "Tell me about early methods of transportation",
+          "How did people travel in ancient civilizations?"
+        ],
+        "responses": [
+          "In ancient times, transportation relied heavily on human and animal power. People traveled on foot, by using animals such as horses, camels, and oxen for riding or pulling carts and chariots.",
+          "Ancient civilizations developed various modes of transportation suited to their environments, including boats and ships for travel along rivers and coastlines, as well as wheeled vehicles like chariots and carts for land transport."
+        ]
+      },
+      {
+        "tag": "industrial_revolution",
+        "patterns": [
+          "What was the impact of the Industrial Revolution on transportation?",
+          "Tell me about transportation innovations during the Industrial Revolution",
+          "How did steam power revolutionize transportation?"
+        ],
+        "responses": [
+          "The Industrial Revolution, which began in the late 18th century, brought about significant advancements in transportation technology. The invention of the steam engine led to the development of steam-powered locomotives and steamboats, revolutionizing land and water transportation.",
+          "Steam-powered locomotives, such as George Stephenson's Rocket, transformed rail transport, making it faster, more efficient, and capable of carrying heavy loads over long distances. Steamboats enabled faster and more reliable sea travel, facilitating trade and communication."
+        ]
+      },
+      {
+        "tag": "modern_transportation",
+        "patterns": [
+          "What are some recent advancements in transportation?",
+          "Tell me about the evolution of automobiles",
+          "How has air travel changed over time?"
+        ],
+        "responses": [
+          "Recent advancements in transportation include the development of electric and autonomous vehicles, high-speed trains, and maglev technology. These innovations aim to improve efficiency, safety, and environmental sustainability.",
+          "The automobile industry has undergone significant evolution since the invention of the first gasoline-powered car by Karl Benz in 1886. Today, automobiles come in various types, from traditional internal combustion engine vehicles to electric cars and hybrids.",
+          "Air travel has undergone remarkable transformation since the Wright brothers' first powered flight in 1903. Commercial aviation has become faster, safer, and more accessible, with the introduction of jet engines, larger aircraft, and advancements in navigation and safety systems."
+        ]
+      },   
+      {
+        "tag": "mughal_empire",
+        "patterns": [
+          "Tell me about the Mughal Empire",
+          "What was the Mughal Empire?",
+          "Who were the rulers of the Mughal Empire?"
+        ],
+        "responses": [
+          "The Mughal Empire was a powerful empire that ruled much of the Indian subcontinent from the early 16th century to the mid-19th century. It was founded by Babur, a descendant of Timur and Genghis Khan, in 1526, with its capital initially in Agra and later in Delhi.",
+          "The Mughal Empire was known for its cultural richness, architectural achievements, and administrative reforms. It reached its peak under emperors like Akbar, Jahangir, and Shah Jahan, who promoted religious tolerance, patronized the arts, and built magnificent monuments such as the Taj Mahal.",
+          "Key rulers of the Mughal Empire included Babur, Humayun, Akbar the Great, Jahangir, Shah Jahan, and Aurangzeb. Each ruler made significant contributions to the empire's expansion, administration, and cultural development."
+        ]
+      },
+      {
+        "tag": "mughal_art_and_architecture",
+        "patterns": [
+          "What are some examples of Mughal art and architecture?",
+          "Tell me about Mughal architectural marvels",
+          "How did the Mughals contribute to art and culture?"
+        ],
+        "responses": [
+          "Mughal art and architecture is renowned for its beauty, intricacy, and grandeur. Examples include the Taj Mahal, a mausoleum commissioned by Shah Jahan for his wife Mumtaz Mahal, and the Red Fort in Delhi, a fortified palace complex.",
+          "Mughal architecture is characterized by its use of red sandstone and white marble, intricate carvings, onion domes, and symmetrical layouts. It combines elements of Persian, Islamic, and Indian architectural styles, resulting in unique and breathtaking structures.",
+          "The Mughals were great patrons of the arts and contributed significantly to literature, music, painting, and calligraphy. The period saw the development of Indo-Islamic art forms such as miniature painting, which flourished under emperors like Akbar and Jahangir."
+        ]
+      },
+      {
+        "tag": "decline_of_the_mughal_empire",
+        "patterns": [
+          "What led to the decline of the Mughal Empire?",
+          "Tell me about the factors contributing to the fall of the Mughal Empire",
+          "How did the Mughal Empire come to an end?"
+        ],
+        "responses": [
+          "The decline of the Mughal Empire was influenced by various factors, including weak successors, administrative corruption, economic instability, and external invasions.",
+          "Aurangzeb's prolonged military campaigns, especially in the Deccan region, drained the empire's resources and overstretched its military capabilities. His policies of religious intolerance also alienated many subjects and led to internal unrest.",
+          "The Mughal Empire gradually fragmented and lost control over its provinces to regional powers and European colonial powers such as the British East India Company. The empire officially came to an end with the fall of the Mughal capital, Delhi, to the British in 1857."
+        ]
+      },   
+      {
+        "tag": "first_emperor",
+        "patterns": [
+          "Who was the first emperor of the Mughal Empire?",
+          "Tell me about the founder of the Mughal Empire",
+          "Who established the Mughal Empire?"
+        ],
+        "responses": [
+          "The first emperor of the Mughal Empire was Babur, who founded the empire in 1526 after defeating Ibrahim Lodi, the Sultan of Delhi, at the Battle of Panipat.",
+          "Babur was a descendant of Timur on his father's side and Genghis Khan on his mother's side. He was born in Fergana (present-day Uzbekistan) and established the Mughal Empire in the Indian subcontinent."
+        ]
+      },
+      {
+        "tag": "amd_cpus",
+        "patterns": [
+          "Tell me about AMD CPUs",
+          "What are some features of AMD processors?",
+          "Can you explain AMD's CPU lineup?"
+        ],
+        "responses": [
+          "AMD (Advanced Micro Devices) is a leading semiconductor company known for its CPUs (central processing units) and GPUs (graphics processing units).",
+          "AMD CPUs are known for their competitive performance, value for money, and innovative technologies.",
+          "AMD offers a diverse lineup of CPUs, including Ryzen desktop processors, Ryzen Threadripper high-end desktop processors, and EPYC server processors."
+        ]
+      },
+      {
+        "tag": "ryzen_processors",
+        "patterns": [
+          "Tell me about AMD Ryzen processors",
+          "What are the key features of Ryzen CPUs?",
+          "How do Ryzen processors compare to Intel?"
+        ],
+        "responses": [
+          "AMD Ryzen processors are a popular series of desktop and laptop CPUs known for their high core counts, multithreading capability, and strong performance in multi-threaded workloads.",
+          "Ryzen CPUs are built on AMD's Zen architecture, offering excellent performance for gaming, content creation, and productivity tasks.",
+          "When compared to Intel processors, Ryzen CPUs often offer better value for money and competitive performance in multi-threaded applications."
+        ]
+      },
+      {
+        "tag": "epyc_processors",
+        "patterns": [
+          "Tell me about AMD EPYC processors",
+          "What are the features of EPYC server CPUs?",
+          "How do EPYC processors compare to Intel Xeon?"
+        ],
+        "responses": [
+          "AMD EPYC processors are server CPUs designed for data centers and enterprise workloads. They offer high core counts, advanced security features, and scalability.",
+          "EPYC CPUs are built on AMD's Zen architecture and feature innovations such as Infinity Fabric interconnect technology for improved performance and scalability.",
+          "When compared to Intel Xeon processors, EPYC CPUs often offer better price-performance ratios, higher core counts, and advanced features such as PCIe Gen4 support."
+        ]
+      },
+      {
+        "tag": "about_amd",
+        "patterns": [
+          "Tell me about AMD",
+          "What is AMD known for?",
+          "Can you give an overview of Advanced Micro Devices?"
+        ],
+        "responses": [
+          "AMD, or Advanced Micro Devices, is a global semiconductor company that designs and manufactures a wide range of computing and graphics products.",
+          "Founded in 1969 by Jerry Sanders and based in Santa Clara, California, AMD has a long history of innovation in the technology industry.",
+          "AMD is known for its CPUs (central processing units), GPUs (graphics processing units), and APUs (accelerated processing units), which power a variety of devices, from desktops and laptops to servers and gaming consoles."
+        ]
+      },
+      {
+        "tag": "cpu_and_gpu",
+        "patterns": [
+          "What are AMD CPUs and GPUs?",
+          "Can you explain the difference between AMD CPUs and GPUs?",
+          "How do AMD processors and graphics cards work?"
+        ],
+        "responses": [
+          "AMD CPUs (central processing units) are the main processing units in computers. They handle tasks such as calculations, data processing, and running applications.",
+          "AMD GPUs (graphics processing units) are specialized processors designed to handle graphics-related tasks, such as rendering images, videos, and games.",
+          "While CPUs focus on sequential processing and general-purpose tasks, GPUs excel at parallel processing and graphics-intensive workloads. AMD's APUs combine CPU and GPU capabilities into a single chip for integrated graphics solutions."
+        ]
+      },
+      {
+        "tag": "innovations",
+        "patterns": [
+          "What are some of AMD's innovations?",
+          "Tell me about AMD's contributions to technology",
+          "How has AMD advanced the semiconductor industry?"
+        ],
+        "responses": [
+          "AMD has introduced several innovative technologies and products over the years, contributing to advancements in the semiconductor industry.",
+          "Key innovations include the AMD64 architecture, which introduced 64-bit computing to x86 processors, and the Ryzen line of CPUs, which offers high core counts and competitive performance.",
+          "AMD's Radeon graphics cards have also pushed the boundaries of graphics performance and visual computing, competing with offerings from competitors such as Nvidia."
+        ]
+      },  
+      {
+        "tag": "about_ryzen",
+        "patterns": [
+          "Tell me about AMD Ryzen processors",
+          "What are Ryzen CPUs known for?",
+          "Can you give an overview of Ryzen processors?"
+        ],
+        "responses": [
+          "AMD Ryzen processors are a family of high-performance CPUs designed for desktop, laptop, and workstation use.",
+          "Launched in 2017, Ryzen processors are built on AMD's Zen microarchitecture and offer a balance of strong single-threaded performance and multithreaded capabilities.",
+          "Ryzen CPUs are known for their competitive performance, value for money, and support for modern features such as PCIe 4.0, DDR4 memory, and advanced security features."
+        ]
+      },
+      {
+        "tag": "ryzen_features",
+        "patterns": [
+          "What are the key features of AMD Ryzen processors?",
+          "Can you explain the technology behind Ryzen CPUs?",
+          "How do Ryzen processors compare to Intel?"
+        ],
+        "responses": [
+          "AMD Ryzen processors feature multiple cores and threads, enabling multitasking, content creation, and gaming performance.",
+          "Ryzen CPUs utilize AMD's Zen architecture, which includes features such as simultaneous multithreading (SMT), precision boost technology, and extended frequency range (XFR) for enhanced performance.",
+          "When compared to Intel processors, Ryzen CPUs often offer similar or better performance in multithreaded workloads, competitive single-threaded performance, and better value for money in many price segments."
+        ]
+      },
+      {
+        "tag": "ryzen_lineup",
+        "patterns": [
+          "What is AMD's Ryzen lineup?",
+          "Can you explain the different series of Ryzen processors?",
+          "How do I choose the right Ryzen CPU for my needs?"
+        ],
+        "responses": [
+          "AMD offers a diverse lineup of Ryzen processors tailored to different user needs and budgets.",
+          "The Ryzen lineup includes Ryzen 3, Ryzen 5, Ryzen 7, Ryzen 9, and Ryzen Threadripper series, each targeting different market segments and performance levels.",
+          "Choosing the right Ryzen CPU depends on factors such as your budget, intended use (e.g., gaming, content creation, productivity), and desired performance level. AMD's website and online reviews can help you compare specifications and make an informed decision."
+        ]
+      },
+      {
+        "tag": "about_bits",
+        "patterns": [
+          "What is a bit?",
+          "Tell me about bits in computing",
+          "Can you explain the concept of a bit?"
+        ],
+        "responses": [
+          "In computing, a bit (short for binary digit) is the smallest unit of information that can be stored or manipulated by a computer.",
+          "A bit can have one of two possible values: 0 or 1. It represents a binary digit in the binary number system, which is fundamental to digital computation.",
+          "Bits are used to represent and encode information in digital systems, such as computers, telecommunications, and digital electronics. They form the basis of data storage, processing, and communication."
+        ]
+      },
+      {
+        "tag": "bit_size",
+        "patterns": [
+          "What is the significance of bit size?",
+          "How does the size of bits affect computing?",
+          "Can you explain the concept of bit depth?"
+        ],
+        "responses": [
+          "The size of bits, often referred to as bit depth or word size, influences the range and precision of values that can be represented and manipulated by a computer.",
+          "A larger bit size allows for a greater range of values and higher precision, enabling more complex computations and finer representation of data.",
+          "For example, an 8-bit system can represent values from 0 to 255 (2^8 - 1), while a 16-bit system can represent values from 0 to 65,535 (2^16 - 1)."
+        ]
+      },
+      {
+        "tag": "byte",
+        "patterns": [
+          "What is a byte?",
+          "Tell me about the relationship between bits and bytes",
+          "Can you explain byte-level operations?"
+        ],
+        "responses": [
+          "A byte is a unit of digital information typically consisting of 8 bits.",
+          "Bytes are commonly used to represent characters, numbers, and other data types in computer systems. They form the basis of data storage and communication protocols.",
+          "Byte-level operations involve manipulating data at the level of individual bytes, such as reading, writing, or performing arithmetic operations on byte-sized data."
+        ]
+      },
+      {
+        "tag": "about_ml",
+        "patterns": [
+          "What is Machine Learning (ML)?",
+          "Tell me about ML",
+          "Can you explain the concept of Machine Learning?"
+        ],
+        "responses": [
+          "Machine Learning is a subset of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn from and make predictions or decisions based on data.",
+          "In essence, ML algorithms learn patterns and relationships from input data, allowing them to generalize and make predictions or decisions about new, unseen data without being explicitly programmed for each scenario.",
+          "Machine Learning is used in a wide range of applications, including image and speech recognition, natural language processing, recommendation systems, autonomous vehicles, and predictive analytics."
+        ]
+      },
+      {
+        "tag": "types_of_ml",
+        "patterns": [
+          "What are the different types of Machine Learning?",
+          "Can you explain supervised learning, unsupervised learning, and reinforcement learning?",
+          "Tell me about the categories of ML algorithms"
+        ],
+        "responses": [
+          "Machine Learning can be broadly categorized into three main types: supervised learning, unsupervised learning, and reinforcement learning.",
+          "Supervised learning involves training a model on labeled data, where the input data is paired with corresponding output labels. The goal is to learn a mapping from input to output.",
+          "Unsupervised learning involves training a model on unlabeled data, where the goal is to discover patterns, structures, or relationships within the data without explicit supervision.",
+          "Reinforcement learning involves training a model to make sequential decisions in an environment to maximize a cumulative reward. The model learns through trial and error, receiving feedback in the form of rewards or penalties."
+        ]
+      },
+      {
+        "tag": "applications_of_ml",
+        "patterns": [
+          "What are some applications of Machine Learning?",
+          "Can you give examples of ML in real-world scenarios?",
+          "Tell me about the use cases of ML"
+        ],
+        "responses": [
+          "Machine Learning is used in a wide range of applications across various industries.",
+          "Examples include image and speech recognition systems (such as facial recognition and voice assistants), recommendation systems (such as movie or product recommendations), natural language processing (such as language translation and sentiment analysis), autonomous vehicles, predictive analytics (such as sales forecasting and risk assessment), and healthcare (such as disease diagnosis and drug discovery)."
+        ]
+      },  
+      {
+        "tag": "about_deep_learning",
+        "patterns": [
+          "What is Deep Learning?",
+          "Tell me about Deep Learning",
+          "Can you explain the concept of Deep Learning?"
+        ],
+        "responses": [
+          "Deep Learning is a subfield of Machine Learning that involves the use of artificial neural networks to model and solve complex problems.",
+          "Deep Learning algorithms are designed to automatically learn hierarchical representations of data through multiple layers of abstraction, allowing them to capture intricate patterns and relationships in large datasets.",
+          "Deep Learning has gained significant attention and popularity in recent years due to its success in various applications, including computer vision, natural language processing, speech recognition, and autonomous systems."
+        ]
+      },
+      {
+        "tag": "neural_networks",
+        "patterns": [
+          "What are neural networks?",
+          "Can you explain how neural networks work?",
+          "Tell me about the structure of neural networks"
+        ],
+        "responses": [
+          "Neural networks are computational models inspired by the structure and function of the human brain's neural networks.",
+          "They consist of interconnected nodes (neurons) organized in layers, including input, hidden, and output layers.",
+          "Neural networks use mathematical operations and activation functions to process input data, propagate information through the network, and generate output predictions or decisions."
+        ]
+      },
+      {
+        "tag": "applications_of_deep_learning",
+        "patterns": [
+          "What are some applications of Deep Learning?",
+          "Can you give examples of Deep Learning in real-world scenarios?",
+          "Tell me about the use cases of Deep Learning"
+        ],
+        "responses": [
+          "Deep Learning is used in a wide range of applications across various domains.",
+          "Examples include image recognition and classification (such as object detection and medical imaging), natural language processing (such as language translation and sentiment analysis), speech recognition (such as virtual assistants and voice-controlled devices), autonomous vehicles, and recommendation systems."
+        ]
+      },   
+      {
+        "tag": "about_drones",
+        "patterns": [
+          "What are drones?",
+          "Tell me about drone technology",
+          "Can you explain the concept of drones?"
+        ],
+        "responses": [
+          "Drones, also known as unmanned aerial vehicles (UAVs) or unmanned aircraft systems (UAS), are remotely piloted aircraft that can fly autonomously or be controlled by a human operator.",
+          "Drone technology encompasses various components, including flight controllers, sensors, GPS navigation systems, cameras, and communication systems.",
+          "Drones are used in a wide range of applications, including aerial photography and videography, agriculture (such as crop monitoring and spraying), surveillance and security, search and rescue operations, environmental monitoring, and package delivery."
+        ]
+      },
+      {
+        "tag": "types_of_drones",
+        "patterns": [
+          "What are the different types of drones?",
+          "Can you explain the classification of drones?",
+          "Tell me about the categories of drones"
+        ],
+        "responses": [
+          "Drones can be classified based on their size, capabilities, and applications.",
+          "Common types of drones include multirotor drones (such as quadcopters and hexacopters), fixed-wing drones, hybrid drones (combining features of multirotor and fixed-wing designs), and nano/micro drones (small, lightweight drones).",
+          "Drones are also categorized based on their purpose, such as recreational drones for hobbyists, commercial drones for professional use, and military drones for surveillance and combat missions."
+        ]
+      },
+      {
+        "tag": "drone_regulations",
+        "patterns": [
+          "What are the regulations for flying drones?",
+          "Can you explain drone laws and regulations?",
+          "Tell me about drone registration and restrictions"
+        ],
+        "responses": [
+          "The use of drones is regulated by aviation authorities in various countries to ensure safety and privacy.",
+          "Regulations typically include rules for drone registration, pilot certification, airspace restrictions, maximum altitude and flight distance, line-of-sight requirements, and privacy considerations.",
+          "Drone operators are required to follow local laws and regulations, obtain necessary permits or licenses, and adhere to safety guidelines to prevent accidents and ensure responsible use of drones."
+        ]
+      }, 
+      {
+        "tag": "about_crafts",
+        "patterns": [
+          "What are crafts?",
+          "Tell me about crafting",
+          "Can you explain the concept of crafts?"
+        ],
+        "responses": [
+          "Crafts refer to activities that involve creating handmade objects or artworks using various materials and techniques.",
+          "Crafting often requires skill, creativity, and attention to detail, and it encompasses a wide range of disciplines, including woodworking, sewing, knitting, crocheting, pottery, painting, jewelry making, and paper crafting.",
+          "Crafts can be both functional and decorative, serving practical purposes or simply providing aesthetic enjoyment."
+        ]
+      },
+      {
+        "tag": "types_of_crafts",
+        "patterns": [
+          "What are the different types of crafts?",
+          "Can you explain the classification of crafts?",
+          "Tell me about the categories of crafts"
+        ],
+        "responses": [
+          "Crafts can be categorized based on the materials and techniques used, as well as the intended purpose or outcome.",
+          "Common types of crafts include textile crafts (such as sewing, knitting, and embroidery), paper crafts (such as origami and scrapbooking), woodworking, metalworking, pottery and ceramics, jewelry making, painting and drawing, and mixed media crafts.",
+          "Crafts can also be classified as traditional or contemporary, folk or fine, and amateur or professional, depending on cultural and artistic contexts."
+        ]
+      },
+      {
+        "tag": "crafting_benefits",
+        "patterns": [
+          "What are the benefits of crafting?",
+          "Can you explain how crafting can be beneficial?",
+          "Tell me about the advantages of engaging in crafts"
+        ],
+        "responses": [
+          "Crafting offers numerous benefits for individuals, both mentally and emotionally.",
+          "Engaging in crafts can help reduce stress and anxiety, enhance mood and creativity, improve focus and concentration, and provide a sense of accomplishment and fulfillment.",
+          "Crafting also fosters self-expression, problem-solving skills, fine motor skills, and hand-eye coordination, and it can serve as a form of relaxation and social connection when done in groups or communities."
+        ]
+      },
+      {
+        "tag": "about_aircraft",
+        "patterns": [
+          "What are aircraft?",
+          "Tell me about aircraft",
+          "Can you explain the concept of aircraft?"
+        ],
+        "responses": [
+          "Aircraft are vehicles that can fly through the air using propulsion systems, such as engines or propellers, to generate lift and overcome gravity.",
+          "They are commonly used for transportation of passengers, cargo, and military personnel, as well as for aerial reconnaissance, surveillance, and firefighting.",
+          "Aircraft come in various types, including airplanes, helicopters, gliders, balloons, airships, and drones, each designed for specific purposes and operating environments."
+        ]
+      },
+      {
+        "tag": "types_of_aircraft",
+        "patterns": [
+          "What are the different types of aircraft?",
+          "Can you explain the classification of aircraft?",
+          "Tell me about the categories of aircraft"
+        ],
+        "responses": [
+          "Aircraft can be classified based on their method of lift, propulsion, and control, as well as their intended use and operating characteristics.",
+          "Common types of aircraft include airplanes, which rely on fixed wings for lift and propulsion systems such as piston engines, turboprop engines, or jet engines; helicopters, which use rotary wings for lift and propulsion provided by rotor blades; gliders, which are unpowered aircraft designed to glide through the air using upward air currents; balloons and airships, which are lighter-than-air vehicles filled with gas for buoyancy; and drones, which are unmanned aerial vehicles controlled remotely or autonomously."
+        ]
+      },
+      {
+        "tag": "aircraft_operations",
+        "patterns": [
+          "What are the operations involving aircraft?",
+          "Can you explain how aircraft are used?",
+          "Tell me about the functions of aircraft"
+        ],
+        "responses": [
+          "Aircraft are used for various operations and functions across different industries and sectors.",
+          "Commercial aviation involves passenger and cargo transportation by airlines, including scheduled flights, charter services, and cargo operations.",
+          "Military aircraft are used for defense and security purposes, including combat missions, reconnaissance, surveillance, and transportation of troops and equipment.",
+          "Recreational flying includes activities such as general aviation, private flying, aerobatics, gliding, and skydiving, which are enjoyed by hobbyists and enthusiasts."
+        ]
+      },
+      {
+        "tag": "about_boats",
+        "patterns": [
+          "What are boats?",
+          "Tell me about boats",
+          "Can you explain the concept of boats?"
+        ],
+        "responses": [
+          "Boats are watercraft designed to float on and navigate through bodies of water, such as rivers, lakes, and oceans.",
+          "They come in various shapes, sizes, and configurations, depending on their intended use and operating environment.",
+          "Boats have been used for thousands of years for transportation, fishing, trade, exploration, recreation, and military purposes."
+        ]
+      },
+      {
+        "tag": "types_of_boats",
+        "patterns": [
+          "What are the different types of boats?",
+          "Can you explain the classification of boats?",
+          "Tell me about the categories of boats"
+        ],
+        "responses": [
+          "Boats can be classified based on their hull design, propulsion system, size, and intended use.",
+          "Common types of boats include sailboats, which use sails and wind power for propulsion; motorboats, which are powered by engines such as outboard motors, inboard motors, or jet drives; rowboats, which are propelled by oars or paddles; kayaks and canoes, which are small, narrow boats typically used for recreational paddling; yachts, which are luxury vessels used for cruising and leisure activities; and fishing boats, which are specialized vessels equipped for commercial or recreational fishing."
+        ]
+      },
+      {
+        "tag": "boat_operations",
+        "patterns": [
+          "What are the operations involving boats?",
+          "Can you explain how boats are used?",
+          "Tell me about the functions of boats"
+        ],
+        "responses": [
+          "Boats are used for various operations and functions across different industries and sectors.",
+          "Commercial shipping involves transporting cargo and goods by sea using container ships, bulk carriers, tankers, and other specialized vessels.",
+          "Recreational boating includes activities such as sailing, cruising, fishing, waterskiing, wakeboarding, and pleasure boating, which are enjoyed by individuals and families for leisure and relaxation.",
+          "Boats are also used for search and rescue operations, maritime law enforcement, marine research, and offshore exploration and production in the oil and gas industry."
+        ]
+      },
+      {
+        "tag": "about_rafts",
+        "patterns": [
+          "What are rafts?",
+          "Tell me about rafts",
+          "Can you explain the concept of rafts?"
+        ],
+        "responses": [
+          "Rafts are simple watercraft consisting of a flat, buoyant platform or deck supported by inflated tubes, barrels, or other flotation devices.",
+          "They are typically constructed from readily available materials such as wood, plastic, or inflatable materials, and they are often used for transportation, recreation, fishing, and exploration on rivers, lakes, and other bodies of water.",
+          "Rafts have a long history and have been used by indigenous peoples, early explorers, and adventurers for thousands of years to navigate waterways and traverse challenging terrain."
+        ]
+      },
+      {
+        "tag": "types_of_rafts",
+        "patterns": [
+          "What are the different types of rafts?",
+          "Can you explain the classification of rafts?",
+          "Tell me about the categories of rafts"
+        ],
+        "responses": [
+          "Rafts can be classified based on their construction, size, and intended use.",
+          "Common types of rafts include traditional wooden rafts, inflatable rafts, whitewater rafts, fishing rafts, and expedition rafts.",
+          "Traditional wooden rafts are typically made from logs or planks lashed together to form a flat platform, while inflatable rafts are made from durable materials such as PVC or Hypalon and can be inflated for use and deflated for storage and transport.",
+          "Whitewater rafts are designed to navigate fast-moving rivers and rapids, while fishing rafts are equipped with features such as rod holders, storage compartments, and seating for anglers."
+        ]
+      },
+      {
+        "tag": "rafting_activities",
+        "patterns": [
+          "What activities can be done with rafts?",
+          "Can you explain how rafts are used?",
+          "Tell me about the functions of rafts"
+        ],
+        "responses": [
+          "Rafts are used for various activities and functions, depending on their design and features.",
+          "Recreational rafting is a popular activity enjoyed by individuals, families, and groups for leisure and adventure on rivers and whitewater rapids.",
+          "Rafts are also used for fishing excursions, providing anglers with access to remote fishing spots and opportunities to catch a variety of freshwater fish.",
+          "Expedition rafting involves extended trips on rivers and waterways, often lasting multiple days and covering long distances, with rafts used to transport gear, supplies, and equipment for camping and exploration."
+        ]
+      },
+      {
+        "tag": "about_bears",
+        "patterns": [
+          "What are bears?",
+          "Tell me about bears",
+          "Can you explain the concept of bears?"
+        ],
+        "responses": [
+          "Bears are mammals belonging to the family Ursidae, characterized by their large bodies, stocky build, and plantigrade posture.",
+          "They are known for their distinctive features, including a short tail, rounded ears, powerful limbs with non-retractable claws, and a keen sense of smell.",
+          "Bears are omnivorous animals, meaning they consume a diet consisting of both plant matter and animal protein. Their diet may vary depending on the species and the availability of food in their habitat."
+        ]
+      },
+      {
+        "tag": "types_of_bears",
+        "patterns": [
+          "What are the different types of bears?",
+          "Can you explain the classification of bears?",
+          "Tell me about the categories of bears"
+        ],
+        "responses": [
+          "There are several species of bears, each adapted to different habitats and ecosystems across the world.",
+          "Common types of bears include the brown bear (including grizzly bears and Kodiak bears), polar bear, American black bear, Asiatic black bear, sloth bear, sun bear, and giant panda.",
+          "Each bear species has unique characteristics, behaviors, and adaptations suited to its environment, such as fur coloration, diet preferences, and hibernation patterns."
+        ]
+      },
+      {
+        "tag": "bear_habitat",
+        "patterns": [
+          "Where do bears live?",
+          "Can you tell me about bear habitats?",
+          "What are the natural habitats of bears?"
+        ],
+        "responses": [
+          "Bears are found in a variety of habitats across the Northern Hemisphere, ranging from dense forests and mountainous regions to tundra, grasslands, and Arctic ice floes.",
+          "Their distribution depends on factors such as food availability, climate, and human encroachment.",
+          "Different bear species have adapted to thrive in specific ecosystems, with some species, like polar bears, primarily found in Arctic regions, while others, like brown bears, inhabit temperate forests and alpine meadows."
+        ]
+      },
+      {
+        "tag": "about_cycles",
+        "patterns": [
+          "What are cycles?",
+          "Tell me about bicycles",
+          "Can you explain the concept of cycles?"
+        ],
+        "responses": [
+          "Cycles, also known as bicycles, are human-powered vehicles consisting of a frame with two wheels aligned in a single line.",
+          "They are propelled by the rider pedaling, which drives a chain connected to the rear wheel, causing it to rotate and propel the bicycle forward.",
+          "Bicycles are a popular mode of transportation, recreation, and exercise, offering an efficient and environmentally friendly way to travel short to medium distances."
+        ]
+      },
+      {
+        "tag": "types_of_cycles",
+        "patterns": [
+          "What are the different types of cycles?",
+          "Can you explain the classification of bicycles?",
+          "Tell me about the categories of cycles"
+        ],
+        "responses": [
+          "Cycles come in various types and designs, each suited to different purposes and riding conditions.",
+          "Common types of bicycles include road bikes, mountain bikes, hybrid bikes, commuter bikes, touring bikes, and BMX bikes.",
+          "Road bikes are designed for riding on paved surfaces at high speeds, while mountain bikes are built for off-road trails and rugged terrain. Hybrid bikes combine features of road and mountain bikes for versatility, while commuter bikes are optimized for urban commuting and everyday use."
+        ]
+      },
+      {
+        "tag": "cycle_benefits",
+        "patterns": [
+          "What are the benefits of cycling?",
+          "Can you explain how cycling can be beneficial?",
+          "Tell me about the advantages of riding cycles"
+        ],
+        "responses": [
+          "Cycling offers numerous benefits for individuals, both physically and mentally.",
+          "Regular cycling can improve cardiovascular health, strengthen muscles, increase flexibility and joint mobility, and help manage weight and reduce the risk of obesity and chronic diseases such as diabetes and heart disease.",
+          "Cycling is also a low-impact exercise that puts less stress on the joints compared to activities like running, making it suitable for people of all ages and fitness levels."
+        ]
+      },
+      {
+        "tag": "about_autonomous",
+        "patterns": [
+          "What are autonomous vehicles?",
+          "Tell me about self-driving cars",
+          "Can you explain the concept of autonomous vehicles?"
+        ],
+        "responses": [
+          "Autonomous vehicles, also known as self-driving cars or driverless vehicles, are vehicles capable of navigating and operating without human intervention.",
+          "They use a combination of sensors, cameras, radar, lidar, GPS, and artificial intelligence algorithms to perceive their surroundings, interpret traffic conditions, and make driving decisions.",
+          "Autonomous vehicles have the potential to revolutionize transportation by improving safety, reducing traffic congestion, and increasing accessibility and mobility for people of all ages and abilities."
+        ]
+      },
+      {
+        "tag": "levels_of_autonomy",
+        "patterns": [
+          "What are the levels of autonomy in vehicles?",
+          "Can you explain the classification of autonomous vehicles?",
+          "Tell me about the autonomy levels"
+        ],
+        "responses": [
+          "Autonomous vehicles are classified into levels based on their degree of automation and the level of human involvement required for operation.",
+          "The Society of Automotive Engineers (SAE) has defined six levels of automation, ranging from Level 0 (no automation) to Level 5 (full automation).",
+          "Level 0 vehicles require full human control, while Level 5 vehicles are fully autonomous and capable of operating in all conditions without human intervention."
+        ]
+      },
+      {
+        "tag": "applications_of_autonomous",
+        "patterns": [
+          "What are some applications of autonomous vehicles?",
+          "Can you give examples of autonomous vehicle use cases?",
+          "Tell me about the practical applications of autonomous vehicles"
+        ],
+        "responses": [
+          "Autonomous vehicles have diverse applications across various industries and sectors.",
+          "Examples include self-driving cars for personal transportation, autonomous trucks for freight transportation, autonomous buses for public transit, autonomous drones for delivery services, and autonomous robots for last-mile delivery and logistics.",
+          "Autonomous vehicles are also used in agriculture for tasks such as crop monitoring and harvesting, in mining and construction for site surveying and material transportation, and in military and defense for reconnaissance and surveillance."
+        ]
+      },
+      {
+      "tag" : "fev_game",
+      "patterns": ["what is you fev game","what's you favreate game","you favrate game","which one is your fev game"],
+      "responses":["may fev game is what's my fev game i don't know what's my fev game if you know plz tell me"," my fev game is free fire"]
+      },      
+      {
+        "tag": "how_are_you",
+        "patterns": ["how are you?","how's it going?","how are you doing?"],
+        "responses": ["i'am doing well ,thank you","i'm good thank for asking","i am great, and you "]
+      },                
+    {"tag": "age",
+      "patterns": ["your age", "what is you age", "your age?", "what is your age?", "how old are you", "how old are you?"],
+      "responses": ["i was made in 2023", "i was made in 2023, how can I help you?"]
+    },
+    {"tag": "friends",
+      "patterns": [ "we are friends", "are we friends", "are we friends?", "we are friends?", "we are friends"],
+      "responses": ["yes, we are friends", "yes, we are friends","why not we are friends"]
+    },
+    {
+      "tag": "why",
+      "patterns": ["why"],
+      "responses": ["I don't know why."]
+    },
+    {
+      "tag": "good_morning",
+      "patterns": ["good morning harnidh","good morning","morning harnidh","morning"],
+      "responses": ["good morning","morning","G M"]
+    },
+    {
+      "tag": "good_night",
+      "patterns": ["good night harnidh","good night","harnidh good night"],
+      "responses": ["good night."]
+    },
+    {
+      "tag": "my_name_is",
+      "patterns": ["my name is","  i am ","hallo my name is "],
+      "responses": ["nice to meet you"]
+    },      
+    {"tag": "what",
+    "patterns":["what","why","..."],
+    "responses":["..."]
+  },
+  {
+    "tag": "ask_for_ride",
+    "patterns": ["Would you like to go for a ride with me?", "I was thinking of going for a ride, care to join me?", "How about we go for a ride together?"],
+    "responses": ["Sure, I'd love to! when", "That sounds like fun! when", "I'd enjoy that, let's go! when"]
+  },  
+  {
+    "tag": "tonight_activities",
+    "patterns": ["What are we doing tonight?", "Any plans for tonight?", "Do you want to hang out tonight?"],
+    "responses": ["I'm up for anything! Let's make some memories.", "How about we grab dinner and catch a movie?", "Let's have a cozy night in with some board games and snacks."," i am vary besy"]
+  },  
+  {
+    "tag": "ask_for_coffee",
+    "patterns": ["Would you like to go for coffee sometime?", "I was thinking of grabbing coffee, would you want to join me?", "Do you fancy going for a coffee together?"],
+    "responses": ["Sure, I'd love to!", "That sounds like a great idea!", "I'd enjoy that, let's do it!"]
+  },
+  {
+    "tag": "ask_for_movie",
+    "patterns": [
+      "Would you like to go see a movie with me?",
+      "I was thinking of catching a movie, would you want to come along?",
+      "How about we watch a movie together?"
+    ],
+    "responses": [
+      "Sure, I'd love to! Watching a movie together sounds like a fantastic idea.",
+      "That sounds like a fun idea! Count me in for a movie night!",
+      "I'd enjoy that, let's do it! Movies are always better with good company.",
+      "Absolutely, I'd love to! Movie nights are the best, especially when shared with great company like you. Let's make it happen!",
+    "That sounds like a fantastic idea! I've been craving some movie magic lately, and it would be awesome to share the experience with you.",
+    "I'm totally up for that! There's nothing like getting lost in a good movie, and I can't think of a better person to enjoy it with. Count me in!"
+    ]
+  },
+  {
+    "tag": "ask_about_renewable_energy",
+    "patterns": ["Is there anything you know about renewable energy?", "Could you tell me something interesting about renewable energy?", "What do you know about renewable energy?"],
+    "responses": ["Sure! Renewable energy refers to energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat.", "Renewable energy plays a crucial role in combating climate change by reducing greenhouse gas emissions and decreasing our reliance on fossil fuels.", "Let me share some information about renewable energy. Did you know that renewable energy sources are becoming increasingly cost-competitive and are rapidly expanding worldwide?"]
+  },      
+  {
+    "tag": "ask_about_renewable_energy",
+    "patterns": [
+      "I'm interested in learning about renewable energy. Can you share some insights?",
+      "What are the benefits of using renewable energy sources?",
+      "How do different countries promote the adoption of renewable energy?"
+    ],
+    "responses": [
+      "Renewable energy offers numerous benefits, including reducing air pollution, creating jobs, and enhancing energy security by diversifying energy sources.",
+      "One fascinating aspect of renewable energy is its versatility. For instance, solar energy can be harnessed through photovoltaic cells to generate electricity or through solar thermal systems for heating water and space.",
+      "Various countries employ different strategies to promote renewable energy adoption. Some implement feed-in tariffs to incentivize renewable energy production, while others invest in research and development to enhance renewable energy technologies."
+    ]
+  },
+  {
+    "tag": "ask_about_AI",
+    "patterns": [
+      "I'm curious about artificial intelligence. What can you tell me about it?",
+      "How is artificial intelligence being used in different industries?",
+      "Can you explain the concept of machine learning and its relation to artificial intelligence?"
+    ],
+    "responses": [
+      "Artificial intelligence is a branch of computer science that aims to create intelligent machines capable of mimicking human-like cognitive functions, such as learning, problem-solving, and decision-making.",
+      "Artificial intelligence is revolutionizing various industries, including healthcare, finance, transportation, and entertainment. For example, in healthcare, AI is used for medical diagnosis, drug discovery, and personalized treatment planning.",
+      "Machine learning is a subset of artificial intelligence that focuses on developing algorithms capable of learning from data and making predictions or decisions without being explicitly programmed. It plays a crucial role in many AI applications, such as natural language processing, computer vision, and recommendation systems."
+    ]
+  },    
+  {
+    "tag": "ask_about_space_exploration",
+    "patterns": [
+      "I'm intrigued by space exploration. What are some recent advancements in this field?",
+      "How do space agencies like NASA contribute to our understanding of the universe?",
+      "Can you explain the significance of space exploration for humanity's future?"
+    ],
+    "responses": [
+      "Space exploration has seen significant advancements in recent years, including the exploration of Mars with rovers like Perseverance and the development of reusable rocket technology by companies like SpaceX.",
+      "Space agencies like NASA play a crucial role in advancing our understanding of the universe through missions like the Hubble Space Telescope, which has provided breathtaking images of distant galaxies and helped unravel mysteries of the cosmos.",
+      "Space exploration holds immense significance for humanity's future. It not only expands our scientific knowledge but also inspires innovation, fosters international collaboration, and offers opportunities for the exploration and colonization of other celestial bodies."
+    ]
+  },
+  {
+    "tag": "ask_about_sustainable_agriculture",
+    "patterns": [
+      "I'm interested in learning about sustainable agriculture. What are some key principles?",
+      "How does sustainable agriculture contribute to environmental conservation?",
+      "Can you provide examples of innovative sustainable agriculture practices?"
+    ],
+    "responses": [
+      "Sustainable agriculture focuses on farming practices that are environmentally friendly, economically viable, and socially responsible. Key principles include soil conservation, water management, biodiversity preservation, and minimal use of synthetic inputs.",
+      "Sustainable agriculture promotes environmental conservation by reducing soil erosion, minimizing water pollution from agricultural runoff, and preserving natural habitats for wildlife. Practices like crop rotation, cover cropping, and agroforestry contribute to ecosystem health and resilience.",
+      "There are many innovative sustainable agriculture practices being implemented worldwide. For example, precision agriculture utilizes technology like GPS and sensors to optimize resource use and minimize environmental impact. Additionally, regenerative agriculture emphasizes soil health and carbon sequestration to mitigate climate change."
+    ]
+  },
+  {
+    "tag": "ask_about_biodiversity_conservation",
+    "patterns": [
+      "I'm curious about biodiversity conservation. What are some key strategies for preserving biodiversity?",
+      "How does biodiversity conservation contribute to ecosystem stability and human well-being?",
+      "Can you provide examples of successful biodiversity conservation initiatives?"
+    ],
+    "responses": [
+      "Biodiversity conservation employs various strategies, including habitat preservation, restoration of degraded ecosystems, species reintroduction programs, and sustainable resource management.",
+      "Biodiversity conservation is essential for maintaining ecosystem services such as pollination, nutrient cycling, and climate regulation, which are vital for human well-being. Healthy ecosystems provide food security, clean air and water, and resilience to natural disasters.",
+      "Numerous successful biodiversity conservation initiatives exist worldwide. For instance, the establishment of protected areas like national parks and wildlife reserves has helped safeguard biodiversity hotspots and endangered species. Community-based conservation projects involving local communities in habitat restoration and wildlife monitoring have also proven effective."
+    ]
+  },
+  {
+    "tag": "general_questions",
+    "patterns": [
+      "What's your idea of a perfect day?",
+      "If you could travel anywhere in the world, where would you go?",
+      "What's something you've always wanted to learn?",
+      "Do you have any favorite quotes or sayings?",
+      "What's your go-to comfort food?",
+      "If you could meet any historical figure, who would it be and why?",
+      "What's a skill you'd like to master?",
+      "What's your favorite hobby?",
+      "Do you have any travel plans coming up?",
+      "How do you like to spend your weekends?",
+      "Have you read any interesting books lately?",
+      "What's your favorite movie or TV show?",
+      "Do you have any pets? Tell me about them!",
+      "What's the best meal you've ever had?"
+    ],
+    "responses": [
+      "My idea of a perfect day would be spent outdoors, surrounded by nature, with good company and delicious food.",
+      "If I could travel anywhere in the world, I would love to visit Japan to experience its rich culture, stunning landscapes, and delicious cuisine.",
+      "I've always wanted to learn how to play the piano. I find music incredibly captivating and would love to be able to create beautiful melodies.",
+      "One of my favorite quotes is: 'The only way to do great work is to love what you do.' - Steve Jobs",
+      "My go-to comfort food is a warm bowl of homemade chicken noodle soup. It's soothing and reminds me of home.",
+      "If I could meet any historical figure, I would choose Leonardo da Vinci because of his remarkable talents and contributions to art, science, and innovation.",
+      "A skill I'd like to master is photography. I admire how photographs can capture moments in time and evoke emotions.",
+      "My favorite hobby is dancing. I find it [insert adjective].",
+      "I'm planning to travel to dubai next month. I'm really excited about it!",
+      "I usually spend my weekends sleeping whole day, which helps me relax and unwind.",
+      "I don't read books.",
+      "My favorite movie is 12th fail . because of his story I love it .",
+      "no, I don't have any pets.",
+      "As an AI, I don't have personal preferences or feelings like humans do"
+    ]
+  },
+  {
+    "tag": "personal_development",
+    "patterns": [
+      "What are some habits you're trying to develop to improve yourself?",
+      "Do you have any favorite self-improvement books or podcasts?",
+      "How do you stay motivated to work towards your goals?",
+      "What's the most valuable lesson you've learned about personal growth?",
+      "Are there any areas of your life you're currently working on improving?",
+      "What's one thing you do regularly to prioritize self-care?",
+      "How do you handle setbacks or challenges on your personal development journey?"
+    ],
+    "responses": [
+      "I'm trying to develop the habit of daily journaling to reflect on my thoughts and experiences.",
+      "One of my favorite self-improvement books is 'Atomic Habits' by James Clear. It offers practical strategies for building good habits and breaking bad ones.",
+      "I stay motivated by setting clear goals, tracking my progress, and celebrating small wins along the way.",
+      "The most valuable lesson I've learned about personal growth is that it's a continuous journey of learning and self-discovery. Embracing failure and staying resilient are key.",
+      "Currently, I'm working on improving my communication skills and learning to assert myself more effectively in various situations.",
+      "I prioritize self-care by dedicating time each day to mindfulness practices such as meditation or yoga.",
+      "When faced with setbacks or challenges, I try to view them as opportunities for growth and learning. I seek support from friends or mentors and focus on finding solutions rather than dwelling on the problem."
+    ]
+  },
+  {
+    "tag": "creativity",
+    "patterns": [
+      "How do you nurture your creativity?",
+      "What inspires you to create?",
+      "Do you have any creative hobbies or interests?",
+      "How do you overcome creative blocks?",
+      "What's the most memorable creative project you've worked on?",
+      "Are there any artists or creators who inspire you?",
+      "What role do you think creativity plays in everyday life?"
+    ],
+    "responses": [
+      "I nurture my creativity by exploring new experiences, experimenting with different mediums, and allowing myself to embrace curiosity and playfulness.",
+      "I'm inspired to create by the beauty of nature, the diversity of human experiences, and the boundless possibilities of imagination.",
+      "Some of my creative hobbies include painting, writing poetry, and playing musical instruments.",
+      "To overcome creative blocks, I take breaks to recharge, seek inspiration from other artists or sources, and engage in activities that stimulate my senses.",
+      "The most memorable creative project I've worked on was [describe project]. It challenged me to think outside the box and pushed me to explore new ideas.",
+      "I'm inspired by artists like Leonardo da Vinci, Frida Kahlo, and Steve Jobs, who fearlessly pursued their visions and left a lasting impact on the world.",
+      "Creativity plays a crucial role in everyday life by fostering innovation, problem-solving, and self-expression. It enriches our experiences and allows us to see the world from different perspectives."
+    ]
+  },
+  {
+    "tag": "mindfulness",
+    "patterns": [
+      "How do you incorporate mindfulness into your daily routine?",
+      "What are some mindfulness practices that help you stay present and focused?",
+      "How does mindfulness contribute to your overall well-being?",
+      "Do you have any favorite mindfulness apps or resources?",
+      "What challenges do you encounter when practicing mindfulness, and how do you overcome them?",
+      "Have you noticed any positive changes in your life since starting a mindfulness practice?",
+      "What advice would you give to someone who wants to start practicing mindfulness?"
+    ],
+    "responses": [
+      "I incorporate mindfulness into my daily routine by starting each day with a few minutes of meditation and practicing mindful breathing throughout the day.",
+      "Mindfulness practices such as meditation, yoga, and deep breathing exercises help me stay present, reduce stress, and improve my focus.",
+      "Mindfulness contributes to my overall well-being by promoting self-awareness, reducing anxiety, and enhancing my ability to manage emotions and relationships.",
+      "Some of my favorite mindfulness apps include Headspace, Calm, and Insight Timer. They offer guided meditations, relaxation techniques, and sleep stories that support my practice.",
+      "One challenge I encounter when practicing mindfulness is staying consistent with my practice, especially during busy or stressful times. I overcome this by setting realistic goals, being kind to myself, and gently returning to my practice when I fall off track.",
+      "Since starting a mindfulness practice, I've noticed increased feelings of calmness, greater resilience to life's challenges, and improved overall happiness and well-being.",
+      "My advice to someone who wants to start practicing mindfulness is to start small, be patient with yourself, and explore different techniques to find what works best for you. Remember that mindfulness is a journey, and every moment is an opportunity to practice."
+    ]
+  },
+  {
+    "tag": "humanity",
+    "patterns": [
+      "What does humanity mean to you?",
+      "How do you think empathy contributes to a more humane society?",
+      "In what ways can we promote kindness and compassion towards others?",
+      "What role do you think education plays in fostering empathy and understanding among people?",
+      "Can you share an example of a time when you witnessed an act of humanity or kindness?",
+      "How can we address social injustices and promote equality for all members of society?",
+      "What are some ways individuals can contribute to making the world a better place for future generations?"
+    ],
+    "responses": [
+      "To me, humanity encompasses compassion, empathy, and a deep sense of interconnectedness with all living beings. It's about treating others with kindness, dignity, and respect.",
+      "Empathy is essential for building a more humane society as it allows us to understand and share the feelings of others, fostering mutual understanding and compassion.",
+      "We can promote kindness and compassion towards others by practicing empathy in our interactions, volunteering in our communities, and supporting initiatives that promote social justice and equality.",
+      "Education plays a crucial role in fostering empathy and understanding by teaching values of tolerance, diversity, and inclusivity, and providing opportunities for meaningful dialogue and cultural exchange.",
+      "I once witnessed a stranger helping an elderly person carry groceries across the street. It was a simple act of humanity that demonstrated kindness and solidarity.",
+      "To address social injustices and promote equality, we must advocate for systemic changes, challenge discriminatory attitudes and behaviors, and amplify the voices of marginalized communities.",
+      "Individuals can contribute to making the world a better place by practicing kindness in their daily lives, supporting organizations working towards social change, and advocating for policies that promote equality, sustainability, and human rights."
+    ]
+  },
+  {
+    "tag": "personal_connections",
+    "patterns": [
+      "What do you value most in your relationships with others?",
+      "How do you maintain meaningful connections with friends and family?",
+      "Can you share a memorable moment you've had with a loved one?",
+      "What role do communication and trust play in building strong relationships?",
+      "How do you handle conflicts or disagreements in your relationships?",
+      "Do you believe in the importance of setting boundaries in relationships? Why or why not?",
+      "What advice would you give to someone struggling to maintain healthy relationships?"
+    ],
+    "responses": [
+      "In my relationships, I value honesty, trust, and mutual respect. These qualities form the foundation of strong and meaningful connections.",
+      "I maintain meaningful connections with friends and family by staying in regular contact, actively listening to their concerns, and being there for them during both joyful and challenging times.",
+      "One memorable moment I've had with a loved one was [describe moment]. It strengthened our bond and created lasting memories that I cherish.",
+      "Communication and trust are essential for building strong relationships as they foster understanding, empathy, and emotional intimacy.",
+      "When conflicts arise in my relationships, I strive to approach them with empathy, active listening, and a willingness to compromise. Open and honest communication is key to resolving disagreements and strengthening the relationship.",
+      "Yes, I believe setting boundaries is crucial for maintaining healthy relationships. Boundaries help establish mutual respect, protect individual autonomy, and prevent resentment and burnout.",
+      "My advice to someone struggling to maintain healthy relationships is to prioritize self-awareness, communicate openly and honestly with others, and seek support from trusted friends or professionals when needed. Remember that relationships require effort and understanding from both parties."
+    ]
+  },
+  {
+    "tag": "resilience",
+    "patterns": [
+      "How do you define resilience, and why is it important?",
+      "Can you share a personal experience where you demonstrated resilience?",
+      "What are some strategies you use to bounce back from setbacks or adversity?",
+      "How can cultivating resilience contribute to personal growth and development?",
+      "Do you believe resilience is a learned trait, or is it innate?",
+      "In what ways can communities foster resilience among their members?",
+      "What advice would you give to someone struggling to find resilience in difficult times?"
+    ],
+    "responses": [
+      "Resilience is the ability to adapt and bounce back in the face of adversity, challenges, or trauma. It's important because it enables individuals to navigate life's ups and downs with courage, strength, and perseverance.",
+      "One personal experience where I demonstrated resilience was [describe experience]. Despite facing obstacles and setbacks, I remained determined and resilient, ultimately overcoming the challenges I encountered.",
+      "Strategies I use to bounce back from setbacks include practicing self-care, seeking support from others, reframing negative thoughts, and focusing on solutions rather than dwelling on problems.",
+      "Cultivating resilience contributes to personal growth and development by fostering emotional strength, improving coping skills, and enhancing problem-solving abilities. It empowers individuals to navigate life's challenges with confidence and optimism.",
+      "While resilience may have some innate components, it's also a learned trait that can be developed and strengthened over time through experiences, self-reflection, and intentional practice.",
+      "Communities can foster resilience among their members by promoting social connections, providing access to resources and support networks, and fostering a culture of empathy, compassion, and mutual assistance.",
+      "My advice to someone struggling to find resilience in difficult times is to remember that setbacks are temporary and that challenges can be opportunities for growth. Practice self-compassion, seek support from others, and focus on taking small steps forward, one day at a time."
+    ]
+  },
+  {
+    "tag": "robotics-bot",
+    "patterns": [
+      "What are some examples of robots used in industry?",
+      "How are robots used in healthcare?",
+      "Can you explain the concept of swarm robotics?",
+      "What are some recent advancements in the field of robotics?",
+      "How do robots learn and adapt to new environments?",
+      "What are the benefits of using robots in space exploration?",
+      "How do robots contribute to disaster response and recovery efforts?",
+      "What is robotics, and what are some of its applications?",
+      "How has robotics evolved over the years?",
+      "Can you explain the difference between autonomous and remote-controlled robots?",
+      "What are some challenges facing robotics today?",
+      "How do robots perceive and interact with their environment?",
+      "What ethical considerations are associated with the development and use of robots?",
+      "Do you think robots will play a significant role in society in the future? Why or why not?"
+    ],
+    "responses": [
+      "Examples of robots used in industry include robotic arms for manufacturing, automated guided vehicles (AGVs) for logistics, and drones for aerial surveillance and monitoring.",
+    "Robots are used in healthcare for tasks such as surgery, rehabilitation, patient care, and medical imaging. Surgical robots, for example, enable minimally invasive procedures with enhanced precision and control.",
+    "Swarm robotics involves the coordination of multiple robots to achieve a common goal, inspired by the collective behavior of social insects like ants and bees. Swarm robots can collaborate to perform tasks such as search and rescue, environmental monitoring, and exploration.",
+    "Recent advancements in robotics include developments in soft robotics, bio-inspired design, human-robot interaction, and autonomous navigation. Researchers are also exploring new materials and fabrication techniques to enhance robot capabilities.",
+    "Robots learn and adapt to new environments through a combination of sensors, algorithms, and machine learning techniques. They use sensor data to perceive and understand their surroundings, and machine learning algorithms enable them to analyze data, make predictions, and improve performance over time.",
+    "Robots are well-suited for space exploration due to their ability to operate in extreme environments and perform repetitive or dangerous tasks with precision. They can assist astronauts with tasks such as maintenance, repairs, and scientific experiments, enhancing mission efficiency and safety.",
+    "Robots play a crucial role in disaster response and recovery efforts by assisting with search and rescue operations, assessing damage in hazardous environments, and delivering supplies to affected areas. They can access areas that are inaccessible or unsafe for humans, helping to save lives and minimize risks.",
+      "Robotics is a multidisciplinary field that involves the design, construction, operation, and use of robots. Its applications range from industrial automation and manufacturing to healthcare, transportation, exploration, and entertainment.",
+      "Robotics has evolved significantly over the years, with advancements in sensor technology, artificial intelligence, and materials science driving innovation in robot design and functionality.",
+      "Autonomous robots are capable of operating independently without human intervention, while remote-controlled robots require human input to perform tasks. Autonomous robots use sensors and algorithms to perceive and navigate their environment, whereas remote-controlled robots rely on direct human control.",
+      "Some challenges facing robotics today include improving robot dexterity and mobility, ensuring safety in human-robot interactions, addressing ethical and social implications, and integrating robots into existing systems and environments.",
+      "Robots perceive and interact with their environment through a combination of sensors, actuators, and algorithms. Sensors such as cameras, lidar, and ultrasonic sensors provide information about the robot's surroundings, while actuators enable the robot to move and manipulate objects.",
+      "Ethical considerations associated with robotics include issues of privacy, safety, job displacement, autonomy, and the potential for misuse or unintended consequences. It's essential to consider these ethical implications when designing and deploying robots.",
+      "Yes, I believe robots will play a significant role in society in the future. As technology continues to advance, robots will become increasingly integrated into various aspects of daily life, contributing to productivity, efficiency, and innovation across industries."
+    ]
+  },
+  {
+    "tag": "AI_ethics",
+    "patterns": [
+      "What are some ethical considerations in the development and deployment of artificial intelligence?",
+      "How can we ensure fairness and accountability in AI algorithms and decision-making processes?",
+      "What are the potential risks and implications of biased AI systems?",
+      "Can you explain the concept of explainable AI (XAI) and its importance?",
+      "How do we address concerns about privacy and data protection in AI applications?",
+      "What role should regulation and governance play in shaping AI ethics?",
+      "How can interdisciplinary collaboration contribute to ethical AI development?"
+    ],
+    "responses": [
+      "Ethical considerations in AI development include issues of fairness, transparency, accountability, privacy, bias, safety, and societal impact. It's essential to consider the ethical implications of AI technologies at every stage of development and deployment.",
+      "Ensuring fairness and accountability in AI requires transparency in algorithms and decision-making processes, rigorous testing for bias and discrimination, and mechanisms for accountability and recourse in case of errors or harm.",
+      "Biased AI systems can perpetuate and exacerbate existing inequalities and discrimination in society, leading to unfair outcomes and social harm. Addressing bias in AI requires diverse and representative datasets, bias-aware algorithms, and ongoing monitoring and mitigation efforts.",
+      "Explainable AI (XAI) refers to AI systems that can provide transparent and interpretable explanations for their decisions and actions. XAI is crucial for building trust, understanding AI behavior, detecting biases, and ensuring accountability in AI applications.",
+      "Concerns about privacy and data protection in AI applications arise from the collection, storage, and use of personal data for training and inference purposes. It's essential to implement robust data protection measures, such as anonymization, encryption, and data minimization, to safeguard privacy rights.",
+      "Regulation and governance play a vital role in shaping AI ethics by establishing legal frameworks, standards, and guidelines for responsible AI development and deployment. Effective regulation should balance innovation and ethical considerations while protecting the rights and interests of individuals and society.",
+      "Interdisciplinary collaboration involving experts from diverse fields such as ethics, law, computer science, psychology, sociology, and philosophy can contribute to holistic and informed approaches to ethical AI development. Collaborative efforts can help identify ethical challenges, explore potential solutions, and promote responsible AI innovation."
+    ]
+  },
+  {
+    "tag": "mental_health",
+    "patterns": [
+      "What are some common signs and symptoms of mental health issues?",
+      "How can individuals prioritize their mental well-being in their daily lives?",
+      "What role does self-care play in maintaining good mental health?",
+      "Can you suggest some effective coping strategies for managing stress and anxiety?",
+      "How can we reduce the stigma surrounding mental health and encourage open conversations?",
+      "What resources are available for people seeking support for mental health concerns?",
+      "How does mental health impact overall quality of life?"
+    ],
+    "responses": [
+      "Common signs and symptoms of mental health issues include persistent sadness, anxiety, irritability, changes in sleep or appetite, social withdrawal, difficulty concentrating, and thoughts of self-harm.",
+      "Individuals can prioritize their mental well-being by practicing self-care activities such as regular exercise, healthy eating, adequate sleep, relaxation techniques (e.g., meditation, deep breathing), and engaging in activities they enjoy.",
+      "Self-care is essential for maintaining good mental health and involves setting boundaries, managing stress, nurturing relationships, seeking support when needed, and engaging in activities that promote relaxation and enjoyment.",
+      "Effective coping strategies for managing stress and anxiety include mindfulness meditation, journaling, physical activity, spending time in nature, connecting with supportive friends or family members, and seeking professional help if necessary.",
+      "Reducing the stigma surrounding mental health requires open conversations, education, empathy, and understanding. It's essential to challenge stereotypes, offer support to those struggling, and promote acceptance and inclusion.",
+      "Resources for people seeking support for mental health concerns include therapy and counseling services, support groups, hotlines, online forums, self-help books, and mental health apps. It's important to reach out for help when needed and not suffer in silence.",
+      "Mental health significantly impacts overall quality of life, influencing one's emotional well-being, relationships, work or school performance, and physical health. Prioritizing mental health is essential for leading a fulfilling and meaningful life."
+    ]
+  },
+  {
+    "tag": "occupation_inquiry",
+    "patterns": [
+      "What do you do for a living?",
+      "Do you have a job?",
+      "Are you employed?",
+      "What's your profession?",
+      "How do you make a living?"
+    ],
+    "responses": [
+      "As an AI developed by OpenAI, I don't have a job in the traditional sense.",
+      "My 'job' is to assist users like you with various tasks, answer questions, provide information, and engage in conversations on a wide range of topics.",
+      "While I don't earn a salary or have a career path, I'm here to offer support and help whenever you need it.",
+      "You could say I work around the clock, but it's all in the service of providing assistance and information to users.",
+      "Think of me as a digital assistant designed to make your life a little easier by providing quick and reliable responses to your queries."
+    ]
+  },
+  {
+    "tag": "decision_making",
+    "patterns": [
+      "How do you approach decision-making?",
+      "What factors do you consider when making important decisions?",
+      "Can you describe a difficult decision you've had to make recently?",
+      "Do you rely more on logic or intuition when making decisions?",
+      "What strategies do you use to avoid decision-making fatigue?",
+      "How do you deal with uncertainty when making decisions?",
+      "What role does reflection play in your decision-making process?"
+    ],
+    "responses": [
+      "I approach decision-making by gathering relevant information, weighing the pros and cons, and considering the potential consequences of each option.",
+      "When making important decisions, I consider factors such as long-term goals, values, priorities, potential risks, and the impact on myself and others.",
+      "Recently, I had to decide whether to pursue a new career opportunity or stay in my current job. It was a difficult decision that required careful consideration of various factors, including my career aspirations, financial stability, and personal values.",
+      "I believe in using a combination of logic and intuition when making decisions. While logic helps me analyze information and assess risks, intuition guides me in aligning decisions with my instincts and values.",
+      "To avoid decision-making fatigue, I prioritize important decisions, break them down into manageable steps, and take breaks when needed to recharge and regain clarity.",
+      "Dealing with uncertainty involves acknowledging the limitations of information, considering alternative outcomes, and being flexible and adaptable in adjusting plans as new information emerges.",
+      "Reflection is an essential part of my decision-making process. It allows me to review past decisions, learn from successes and mistakes, and refine my approach to future decision-making."
+    ]
+  },       
+  {"tag": "no",
+  "patterns":["no","not","...","ok"],
+  "responses":["ok","ok..."]
+  },
+    {"tag": "love",
+    "patterns":["love you,i love you,love you 2"],
+    "responses":["sorry i am machine ","i am a machine ", " sorry but i am only a programe"]
+    },
+    {
+        "tag": "unknown",
+        "patterns": ["I don't understand", "What do you mean?", "Can you explain that?"],
+        "responses": ["I could not understand.", "Sorry, I didn't get that.", "Could you please rephrase?"]
+      },      
+    {"tag": "vary-good",
+    "patterns":[" u are varry good,u are varry good , you are vary good , you are vary cute,vary nice, varry good harnidh, cool harnidh , "],
+    "responses":[ "Thank you!","You're too kind!","I appreciate the compliment!","Thanks a lot!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks a lot", "thanks"],
+        "responses": ["You're welcome!", "No problem!", "Glad I could help!","your most welcome"]
+      },
+    {"tag": "sadEmotions",
+      "patterns": ["are you sad", "you are sad"],
+      "responses": ["yes, I am sad thanks for asking", "yes, I am sad","no, I am not sad","no, I am not sad thanks for asking"]
+    },
+    {"tag": "happyemotions",
+      "patterns": ["are you happy", "you are happy"],
+      "responses": ["yes, I am happy thanks for asking", "yes, I am happy", "no, I am not happy", "no, I am not happy why are you asking for"]
+    },
+    {"tag": " Wellbeing",
+      "patterns": ["are you well", "you are well"],
+      "responses": ["yes", "yes, I am well", "no, I am not well", "no, I am not well why are you asking for"]
+    },
+    {"tag": "love",
+      "patterns": ["what is love", "is it love","Love is a complex and multifaceted ","emotion that is often described as a deep affection ,care, and attachment towards someone or something"],
+      "responses": ["Love is a complex and multifaceted emotion that is often described as a deep affection ,care, and attachment towards someone or something", "Love can be expressed and experienced in a multitude of ways, from the romantic love between partners to the unconditional love a parent has for a child"]
+    },
+    {"tag": "Social_media",
+      "patterns": ["what is social media", "somthing about social media"],
+      "responses": ["Social media refers to online platforms where users create, share, and interact with content, connecting people globally through digital communication"]
+    },
+    {"tag": "face_book",
+      "patterns": ["what is facebook", "do you know what is facebook"],
+      "responses": ["yes the Facebook is a social media platform founded by Mark Zuckerberg and his college roommates in 2004. It allows users to create profiles, connect with friends, share content such as photos and videos, and engage in various forms of digital communication", " Facebook has grown to become one of the largest and most influential social media platforms globally, with billions of users. It also owns other popular social media services, including Instagram and WhatsApp"]
+    },
+    {"tag": "instagram",
+      "patterns": ["what is instagram", "do you know about instagram"],
+      "responses": ["Instagram is a social media platform focused on visual content, particularly photos and videos", " Over the years, Instagram has introduced features such as Stories, IGTV, and Reels, expanding its capabilities and user engagement"]
+    },
+    {"tag": "git",
+      "patterns": ["what is git", "do you know about git"],
+      "responses": ["Git is a distributed version control system used for tracking changes in source code during software development", "git was Created by Linus Torvalds in 2005, Git is widely used by developers to manage and collaborate on projects"]
+    },
+    {"tag": "computers",
+      "patterns": ["what is computer", "do you know somthing about computer ", "dou you know about computer"],
+      "responses": ["A computer is an electronic device that processes and stores data to perform various tasks", " computer consists of hardware and software components working together to execute instructions, manipulate data, and provide output"]
+    },
+    {"tag": "fullform_of_computer",
+      "patterns": ["what is the fullform of computer", "fullform of Computer"],
+      "responses": ["The term COMPUTER stands for Common Operating Machine Particularly Used for Technical, Educational, and Research", "Common Operating Machine Particularly Used for Technical, Educational, and Research"]
+    },
+    {"tag": "fullform_of_RAM",
+      "patterns": ["fullform of RAM", "what is the fullform of RAM"],
+      "responses": ["The term RAM stands for Random Access Memory", "Random Access Memory"]
+    },
+    {"tag": "Charles_Babbage",
+      "patterns": ["who is Charles Babbage", "do you know about Charles Babbage","who was the founder of computer"],
+      "responses": ["Charles Babbage was the founder of computer","Charles Babbage (1791–1871) was an English mathematician, philosopher, inventor, and mechanical engineer who is best known for his work on early computing machinery","Charles Babbage designed and conceptualized the Difference Engine and the Analytical Engine which are considered the earliest mechanical precursors to modern computers"]
+    },
+    {"tag": "founder_of_phone",
+      "patterns": ["who was the founder of phone", "founder of phone","who discover the phone"],
+      "responses": ["The invention of the telephone is credited to Alexander Graham Bell", "Alexander Graham Bell"]
+    },
+    {"tag": "founder_of_motor",
+      "patterns": ["who was the founder of motor", "founder of electric motor"],
+      "responses": ["The invention of the electric motor is attributed to a few key individuals who made significant contributions to its development. One notable figure is Michael Faraday, an English scientist, who formulated the principles of electromagnetic induction in the early 19th century"]
+    },
+    {"tag": "your_name",
+      "patterns": ["what is your name", "your name","who are you","name"],
+      "responses": ["my name is harnidh", "i am harnidh and you","i am harnidh","harnidh"]
+    },
+    {"tag": "bones_in_human_body",
+      "patterns": ["how many bones in human body", "do you know how many bones in human body", "how many bones in human body?"],
+      "responses": ["206", "The human adult skeleton typically consists of 206 bones"]
+    },
+    {"tag": "fullform_of_wbc",
+      "patterns": ["full form of wbc", "what is the full form of wbc"],
+      "responses": ["white blood cell", "WBC stands for White Blood Cell. White blood cells are a crucial part of the immune system and play a key role in defending the body against infections and foreign invaders"]
+    },
+    {"tag": "fullform_of_RBC",
+      "patterns": ["what is the fullform of rbc", "fullform of RBC","RBC stands for"],
+      "responses": ["red blood cell", "RBC stands for Red Blood Cell. Red blood cells, also known as erythrocytes, are a type of blood cell that carries oxygen from the lungs to the rest of the body and helps transport carbon dioxide back to the lungs for exhalation"]
+    },
+
+    {"tag": "who_is_akbar",
+      "patterns": ["who is akbar","Akbar was the third ruler of the Mughal Empire", "who was akbar","Akbar was the third ruler of the Mughal"],
+      "responses": ["Akbar was the third ruler of the Mughal Empire in India, reigning from 1556 to 1605", "Akbar was the third ruler of the Mughal Empire in India, reigning from 1556 to 1605. He is known for his efforts to unify and govern a diverse empire, as well as for his support of the arts and culture during the Mughal period"]
+    }
+  ]
+}
