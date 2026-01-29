@@ -1,8 +1,3 @@
-Here is a clean, professional, and comprehensive README file for your project.
-
-You can copy and paste the code below into a file named **README.md**.
-
----
 
 # AI Intent-Based Chatbot with TensorFlow
 
@@ -126,3 +121,4 @@ Feel free to fork this project and submit pull requests. You can extend this by 
 ---
 
 ### Would you like me to help you create a robust `intents.json` file to get you started?
+
